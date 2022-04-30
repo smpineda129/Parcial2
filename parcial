@@ -1,0 +1,7 @@
+n = int(input("¿Cuantos datos ingresará? "))
+lista = []
+for a in range (0,n):
+  lista.append(a)
+print("La lista es: ", lista)
+lista.reverse()
+print("La lista invertida es:", lista)
